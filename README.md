@@ -18,7 +18,7 @@ Project.txt is a very simple text based format. All you need is a text editor. A
 
 ^/ Sandy ^#sandy
   Wants to paint a door.
-^/ Anna  :#anna
+^/ Anna  ^#anna
   Sandy's daughter who will help her.
 
 # -----------------------------------------
