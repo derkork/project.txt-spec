@@ -107,7 +107,7 @@ You can start a comment at the beginning of a line `#`. The whole line will be c
 # This is some section marker
 # ---------------------------------------------
 
-# [ ] This is a task that I commented out.
+# ^[ ] This is a task that I commented out.
 ```
 
 
@@ -181,7 +181,7 @@ The following commands are only applicable to people. They have no meaning on ta
 For people you almost always want to note down their email address. This information is also useful when processing the project file with tooling to (e.g. for rendering Gravatars or sending notifications to people.). You can define an email address for a person with `^=>email@example.com`. You can remember this by thinking of the stylised arrow as "how can I contact this person".
 
 ```project.txt
-+ Jeff Smith :=>jeff.smith@example.com 
+^/ Jeff Smith ^=>jeff.smith@example.com 
   This is Jeff. He does things.
 ```
 
